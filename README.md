@@ -16,11 +16,13 @@ The theme's stylesheet in BB's code preview:
 
 ## Install
 
-After the first public release, install from GitHub:
+Install from GitHub:
 
 ```sh
-bb plugin install git:https://github.com/Treo-Solutions/bb-plugin-ocean-dark.git@^0.1.0
+bb plugin install "git:https://github.com/Treo-Solutions/bb-plugin-ocean-dark.git@^0.1.0"
 ```
+
+Keep the quotes when copying this command. Windows Command Prompt otherwise removes the `^` from the version range. The quoted command also works in PowerShell and POSIX shells.
 
 Open **Settings → Appearance** and select **Ocean Dark**. Installing the plugin
 adds the choice; it does not select it for you.
@@ -48,9 +50,10 @@ to a palette that follows the appearance mode.
 
 ## Requirements
 
-BB 0.47.1 or later, with Plugin SDK 0.6.79 up to (but not including) 0.7.
+BB 0.47.1 or later, below 1.0, with Plugin SDK 0.6.79 up to (but not including) 0.7.
 The initial release is checked against BB 0.47.1 and SDK 0.6.79 on Windows.
 No account, API key, external font, or additional service is required.
+Git must be available on the machine running BB to install from GitHub.
 
 ## Local development
 
