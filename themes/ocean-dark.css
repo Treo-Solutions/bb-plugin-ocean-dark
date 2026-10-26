@@ -1,0 +1,101 @@
+/* Ocean Dark for BB.
+ * Palette: T3 Code's Ocean dark variant, T3 Tools Inc. (MIT).
+ * Source: https://github.com/pingdotgg/t3code/blob/main/packages/shared/src/themePalettes.ts
+ * BB token mapping and syntax/ANSI adaptation; no layout or font overrides.
+ * This is a dark-only palette, including when a client is in light mode.
+ */
+:root,
+.light {
+  color-scheme: dark;
+  --canvas: oklch(0.242641 0.024125 250.573);
+  --ink: oklch(0.990339 0.008411 325.64);
+  --background: oklch(0.242641 0.024125 250.573);
+  --foreground: oklch(0.990339 0.008411 325.64);
+  --card: oklch(0.348439 0.019942 253.696);
+  --card-foreground: oklch(0.990339 0.008411 325.64);
+  --popover: oklch(0.398517 0.018232 255.72);
+  --popover-foreground: oklch(0.990339 0.008411 325.64);
+  --primary: oklch(0.758933 0.105833 241.548);
+  --primary-foreground: oklch(0.222003 0.03479 328.979);
+  --brand: oklch(0.758933 0.105833 241.548);
+  --ring: oklch(0.758933 0.105833 241.548);
+  --file-accent: oklch(0.758933 0.105833 241.548);
+  --secondary: oklch(0.358725 0.043145 244.911);
+  --secondary-foreground: oklch(0.990339 0.008411 325.64);
+  --accent: oklch(0.413315 0.051874 243.855);
+  --accent-foreground: oklch(0.990339 0.008411 325.64);
+  --muted: oklch(0.319287 0.036766 246.065);
+  --muted-foreground: oklch(0.691936 0.016294 261.588);
+  --subtle-foreground: oklch(0.652227 0.01149 273.31);
+  --readback-foreground: oklch(0.69099 0.01395 266.424);
+  --border: oklch(0.438653 0.039496 245.44);
+  --border-hairline: oklch(0.438653 0.039496 245.44);
+  --border-seam: oklch(0.417822 0.02535 250.162);
+  --border-seam-vertical: oklch(0.417822 0.02535 250.162);
+  --input: oklch(0.500905 0.043574 244.781);
+  --surface-recessed: oklch(0.29661 0.021883 251.968);
+  --surface-raised: oklch(0.348439 0.019942 253.696);
+  --surface-selected: oklch(0.413744 0.051943 243.848);
+  --surface-selected-border: oklch(0.758933 0.105833 241.548);
+  --sidebar: oklch(0.290387 0.032043 247.274);
+  --sidebar-foreground: oklch(0.990339 0.008411 325.64);
+  --sidebar-accent: oklch(0.353381 0.042285 245.043);
+  --sidebar-accent-foreground: oklch(0.990339 0.008411 325.64);
+  --sidebar-border: oklch(0.55859 0.019001 256.223);
+  --sidebar-primary: oklch(0.758933 0.105833 241.548);
+  --sidebar-primary-foreground: oklch(0.222003 0.03479 328.979);
+  --sidebar-ring: oklch(0.758933 0.105833 241.548);
+  --destructive: oklch(0.655108 0.221148 23.473);
+  --destructive-foreground: oklch(0.222003 0.03479 328.979);
+  --destructive-text: oklch(0.702184 0.189226 22.228);
+  --surface-destructive: oklch(0.298933 0.036443 350.094);
+  --surface-destructive-border: oklch(0.655108 0.221148 23.473);
+  --warning: oklch(0.772406 0.172798 65.367);
+  --warning-text: oklch(0.829017 0.171221 81.038);
+  --attention: oklch(0.772406 0.172798 65.367);
+  --success: oklch(0.793363 0.105022 199.893);
+  --diff-added: oklch(0.793363 0.105022 199.893);
+  --diff-removed: oklch(0.702184 0.189226 22.228);
+  --surface-scrim: oklch(0.242641 0.024125 250.573 / 0.94);
+  --state-hover: oklch(0.758933 0.105833 241.548 / 0.10);
+  --state-active: oklch(0.758933 0.105833 241.548 / 0.17);
+  --pr-merged: #c4b5fd;
+  --ansi-0: #17212b;
+  --ansi-bg-fg-0: #fffaff;
+  --ansi-1: #ff6467;
+  --ansi-bg-fg-1: #17212b;
+  --ansi-2: #5bd0d6;
+  --ansi-bg-fg-2: #17212b;
+  --ansi-3: #ffb900;
+  --ansi-bg-fg-3: #17212b;
+  --ansi-4: #70b9ee;
+  --ansi-bg-fg-4: #17212b;
+  --ansi-5: #c4b5fd;
+  --ansi-bg-fg-5: #17212b;
+  --ansi-6: #5bd0d6;
+  --ansi-bg-fg-6: #17212b;
+  --ansi-7: #969ca6;
+  --ansi-bg-fg-7: #17212b;
+  --ansi-8: #333b45;
+  --ansi-bg-fg-8: #fffaff;
+  --ansi-9: #ff6467;
+  --ansi-bg-fg-9: #17212b;
+  --ansi-10: #5bd0d6;
+  --ansi-bg-fg-10: #17212b;
+  --ansi-11: #ffb900;
+  --ansi-bg-fg-11: #17212b;
+  --ansi-12: #70b9ee;
+  --ansi-bg-fg-12: #17212b;
+  --ansi-13: #d8ccff;
+  --ansi-bg-fg-13: #17212b;
+  --ansi-14: #8de3e6;
+  --ansi-bg-fg-14: #17212b;
+  --ansi-15: #fffaff;
+  --ansi-bg-fg-15: #17212b;
+}
+
+.dark {
+  color-scheme: dark;
+  --canvas: oklch(0.242641 0.024125 250.573);
+  --ink: oklch(0.990339 0.008411 325.64);
+}

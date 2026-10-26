@@ -1,0 +1,59 @@
+{
+  "name": "bb-plugin-ocean-dark",
+  "version": "0.1.0",
+  "description": "An Ocean-inspired dark theme for BB with blue-grey surfaces, sky-blue accents, and matching code and terminal colours.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Treo-Solutions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Treo-Solutions/bb-plugin-ocean-dark.git"
+  },
+  "homepage": "https://github.com/Treo-Solutions/bb-plugin-ocean-dark#readme",
+  "bugs": {
+    "url": "https://github.com/Treo-Solutions/bb-plugin-ocean-dark/issues"
+  },
+  "engines": {
+    "bb": ">=0.47.1 <1.0.0",
+    "bbPluginSdk": ">=0.6.79 <0.7.0"
+  },
+  "files": [
+    "server.ts",
+    "dist/",
+    "themes/",
+    "assets/",
+    "README.md",
+    "PLUGIN_OVERVIEW.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "build": "bb plugin build",
+    "typecheck": "tsc --noEmit"
+  },
+  "bb": {
+    "name": "Ocean Dark",
+    "description": "Give BB blue-grey surfaces, sky-blue accents, and teal highlights, with matching code, diff, and terminal colours. Adapts T3 Code's Ocean dark palette and stays dark in either appearance mode.",
+    "branding": {
+      "icon": "./assets/ocean.svg"
+    },
+    "server": "./server.ts",
+    "skills": [],
+    "themes": [
+      {
+        "id": "ocean-dark",
+        "name": "Ocean Dark",
+        "description": "Blue-grey surfaces with sky-blue and teal accents. Adapted from T3 Code's Ocean dark palette.",
+        "css": "./themes/ocean-dark.css",
+        "codeTheme": {
+          "dark": "./themes/ocean-dark.json",
+          "light": "./themes/ocean-dark.json"
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.6.79",
+    "typescript": "^5.7.0"
+  }
+}
