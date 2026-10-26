@@ -22,6 +22,7 @@
     "dist/",
     "themes/",
     "assets/",
+    "screenshots/",
     "README.md",
     "PLUGIN_OVERVIEW.md",
     "LICENSE",

@@ -4,6 +4,16 @@ A dark theme with blue-grey surfaces, sky-blue accents, and teal highlights.
 The app palette adapts T3 Code's Ocean dark theme. Code, diff, and terminal
 colours are coordinated for BB.
 
+## Screenshots
+
+BB's Appearance settings with Ocean Dark selected:
+
+![Ocean Dark app palette and Appearance settings](screenshots/ocean-dark/appearance.jpg)
+
+The theme's stylesheet in BB's code preview:
+
+![Ocean Dark syntax colours in BB's code preview](screenshots/ocean-dark/code-colours.jpg)
+
 ## Install
 
 After the first public release, install from GitHub:
